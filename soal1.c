@@ -88,8 +88,12 @@ int main(){
     printf("RECOVERED ");
     for(int i = 0; i < length;i++){
         printf("%d ", arr[i]);
+        if(i == (length - 1){
+            printf("%d", arr[i]);
+        
     }
-    printf(" \n");
+    printf("\n");
+   
 
     printf("MAX_SUM %d", total);
 

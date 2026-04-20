@@ -91,7 +91,7 @@ int main(){
     }
     printf("\n");
 
-    printf("MAX_SUM %d\n", total);
+    printf("MAX_SUM %d", total);
 
 
     return 0;    

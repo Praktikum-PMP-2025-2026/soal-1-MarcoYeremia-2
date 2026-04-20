@@ -87,15 +87,21 @@ int main(){
 
     printf("RECOVERED ");
     for(int i = 0; i < length;i++){
-        printf("%d ", arr[i]);
-        if(i == (length - 1){
+        if(i == (length -1)){
             printf("%d", arr[i]);
+
+        }
+        else{
+
+            printf("%d ", arr[i]);
+        }
+
         
     }
     printf("\n");
    
 
-    printf("MAX_SUM %d", total);
+    printf("MAX_SUM %d\n", total);
 
 
     return 0;    
@@ -109,6 +115,7 @@ int main(){
 
 
     }
+
 
 
     
